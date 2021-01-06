@@ -6,7 +6,7 @@
  scanf("%s", &d1.fname);
   printf("\nEnter Employee Last Name      :");
  scanf("%s", &d1.lname);
- printf("\nEnter Employee Age      :");
+ printf("\n      :");
  scanf("%d", &d1.age);
  printf("\nEnter Phone Number      :");
  scanf("%s", &d1.phone_num);
