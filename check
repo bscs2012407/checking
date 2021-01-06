@@ -1,0 +1,15 @@
+
+ fp = fopen("employee.txt","a");
+ printf("Enter Employee ID      :");
+ scanf("%d", &d1.eid);
+ printf("\nEnter Employee First Name      :");
+ scanf("%s", &d1.fname);
+  printf("\nEnter Employee Last Name      :");
+ scanf("%s", &d1.lname);
+ printf("\nEnter Employee Age      :");
+ scanf("%d", &d1.age);
+ printf("\nEnter Phone Number      :");
+ scanf("%s", &d1.phone_num);
+ fwrite(&d1, sizeof(d1), 1, fp);
+ fclose(fp);
+}
